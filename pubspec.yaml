@@ -1,0 +1,16 @@
+name: ethio_market_app
+description: A new Flutter project.
+
+# Run this command in the terminal within the project directory to get the dependencies:
+# flutter pub get
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+# Dev dependencies
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
