@@ -51,7 +51,7 @@ jobs:
       #  - KEY_PASSWORD
       #  - KEY_ALIAS
       - name: Restore keystore and create key.properties (if KEYSTORE_BASE64 set)
-        if: ${{ secrets.KEYSTORE_BASE64 != 'null' && secrets.KEYSTORE_BASE64 != null }}
+        if: ${{ secrets.KEYSTORE_BASE64 != '' & secrets.KEYSTORE_BASE64 != null }}
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
