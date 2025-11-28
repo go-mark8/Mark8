@@ -3,12 +3,12 @@ description: A new Flutter project.
 
 # Run this command in the terminal within the project directory to get the dependencies:
 # flutter pub get
-
 dependencies:
-  flutter:
-    sdk: flutter
-
-  cupertino_icons: ^1.0.2
+   flutter:
+       sdk: flutter
+   # Carousel Dependecy for sliders
+   carousel_pro: ^1.0.0
+cupertino_icons: ^1.0.2
 
 # Dev dependencies
 dev_dependencies:
